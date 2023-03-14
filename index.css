@@ -1,0 +1,118 @@
+*{
+    margin: -3px;
+    box-sizing: border-box;
+}
+body{
+ background-color: palegreen;   
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 28px;
+    margin-bottom: 19px;
+    font-style:bold;
+    color: black;
+}
+.login-box{
+    background-color: greenyellow;
+    width: 405px;
+    height: 391px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border:2px solid black;
+    font-style: normal;
+    font-weight: 100;
+    
+}
+
+label{
+    height: 30px;
+    margin-left: 18px;
+    margin-right: 38px;
+    margin-bottom: 29px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    height: 26px;
+    width: 216px;
+    margin-bottom: 34px;
+    border-radius: 2px;
+}
+#name,#email{
+    margin-left: 30px;
+}
+#dob{
+    margin-left: -21px;
+}
+#check{
+    margin-left: 14px;
+
+}
+#acceptTerms{
+    width: 14px;
+    margin-left: -34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    margin-top: auto;
+    margin-left: 6px;
+    margin-bottom: 7px;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+#table:1{
+    position: relative;
+    background-attachment: fixed;;
+    padding: 10px 6px 8px 6px;
+    margin-top: 5px;
+    box-shadow: 0 25px 50px -12px: black;
+    border-width: 1px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    
+}
+#table:2{
+    margin: auto;
+}
+#table:3{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+td{
+    border-width: 1px;
+    
+    border-style: solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
